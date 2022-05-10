@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FEEDBACK PAGE</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<!--div action = "contacts_entry.php" method="post"-->
+<form action = "contacts_entry.php" method="post">
+  <div class="wrapper" align="center">
+    <div class="title">
+      <h1 style="color:#e01e1bf5">CONTACT & FEEDBACK</h1>
+    </div>
+ 
+    <div class="CONTACT & FEEDBACK">
+      <div class="input-fields">
+        <input type="text" name="name" class="input"  placeholder="Name">
+        <input type="email" name="email" class="input" placeholder="Email Address">
+        <input type="text" name="phone" class="input" maxlength="10"  placeholder="Phone">
+        <input type="text" name="subject" class="input"  placeholder="Subject">
+      </div>
+      <div class="msg">
+      <!--input type="text" name="subject" class="input"  placeholder="Subject"-->
+         <textarea name="message" placeholder="Message"></textarea>
+     
+      </div>
+   </div>
+  </div> 
+  <br>
+  <div align="center">
+    <input type="submit" name="save" value="Submit" class="submit" style="font-size: 20px">
+  </div>
+ 
+</form>
+
+</body>
+</html>
+
