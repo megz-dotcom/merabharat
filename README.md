@@ -7,4 +7,4 @@ Know my about MERABHARAT: This is informative web application, giving informatio
 
 Update: added feedback page with php, mysql as backend to track feedback of web application visiter.
 
-link to access website: https://merabharat-webproject.netlify.app/
+link to access website: https://merabharatmahan.netlify.app
